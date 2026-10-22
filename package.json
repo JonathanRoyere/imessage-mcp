@@ -6,6 +6,8 @@
   "description": "A safety-first MCP server for reading and sending Messages on macOS.",
   "scripts": {
     "check": "tsc --noEmit",
+    "start": "bun run src/stdio.ts",
+    "dev": "bun --watch src/stdio.ts",
     "test": "bun test",
     "test:watch": "bun test --watch"
   },
