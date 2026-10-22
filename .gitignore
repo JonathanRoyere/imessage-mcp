@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Build and test output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Bun
+.bun/
+bun-error.log
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local application state and data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+.imsg*_state.json
+data/
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+.cache/
+tmp/
+temp/
